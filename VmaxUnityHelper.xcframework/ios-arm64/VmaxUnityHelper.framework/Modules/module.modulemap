@@ -1,0 +1,11 @@
+framework module VmaxUnityHelper {
+  umbrella header "VmaxUnityHelper.h"
+
+  export *
+  module * { export * }
+}
+
+module VmaxUnityHelper.Swift {
+    header "VmaxUnityHelper-Swift.h"
+    requires objc
+}
