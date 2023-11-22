@@ -1,0 +1,1695 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxAdUnityBanner",
+        "printedName": "VmaxAdUnityBanner",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare(adResponse:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdDelegate",
+                "printedName": "Vmax.VmaxAdDelegate",
+                "usr": "s:4Vmax0A10AdDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC7prepare10adResponse8delegateySS_0A00aD8Delegate_ptF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC7prepare10adResponse8delegateySS_0A00aD8Delegate_ptF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(container:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC6render9containerySo6UIViewC_tF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC6render9containerySo6UIViewC_tF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSignatures",
+            "printedName": "getSignatures()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC13getSignaturesSaySSGyFZ",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC13getSignaturesSaySSGyFZ",
+            "moduleName": "VmaxUnityHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC5pauseyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC5pauseyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC6resumeyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC6resumeyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC5closeyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC5closeyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrepared",
+            "printedName": "onPrepared(asset:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC10onPrepared5asset6resulty0A00ad5AssetC0_p_xtlF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC10onPrepared5asset6resulty0A00ad5AssetC0_p_xtlF",
+            "moduleName": "VmaxUnityHelper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrepareFailed",
+            "printedName": "onPrepareFailed(asset:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxError",
+                "printedName": "Vmax.VmaxError",
+                "usr": "s:4Vmax0A5ErrorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC15onPrepareFailed5asset5errory0A00ad5AssetC0_p_AG0A5ErrorCtF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC15onPrepareFailed5asset5errory0A00ad5AssetC0_p_AG0A5ErrorCtF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRendered",
+            "printedName": "onRendered(asset:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC10onRendered5asset6resulty0A00ad5AssetC0_p_xtlF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC10onRendered5asset6resulty0A00ad5AssetC0_p_xtlF",
+            "moduleName": "VmaxUnityHelper",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRenderFailed",
+            "printedName": "onRenderFailed(asset:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxError",
+                "printedName": "Vmax.VmaxError",
+                "usr": "s:4Vmax0A5ErrorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC14onRenderFailed5asset5errory0A00ad5AssetC0_p_AG0A5ErrorCtF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC14onRenderFailed5asset5errory0A00ad5AssetC0_p_AG0A5ErrorCtF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClosed",
+            "printedName": "onClosed(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC8onClosed5assety0A00ad5AssetC0_p_tF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC8onClosed5assety0A00ad5AssetC0_p_tF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClicked",
+            "printedName": "onClicked(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC9onClicked5assety0A00ad5AssetC0_p_tF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC9onClicked5assety0A00ad5AssetC0_p_tF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClickedComplete",
+            "printedName": "onClickedComplete(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdAssetHelper",
+                "printedName": "Vmax.VmaxAdAssetHelper",
+                "usr": "s:4Vmax0A13AdAssetHelperP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC17onClickedComplete5assety0A00ad5AssetC0_p_tF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC17onClickedComplete5assety0A00ad5AssetC0_p_tF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldProcessRefresh",
+            "printedName": "shouldProcessRefresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC20shouldProcessRefreshSbyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC20shouldProcessRefreshSbyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addObserverToScrollViews",
+            "printedName": "addObserverToScrollViews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC24addObserverToScrollViewsyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC24addObserverToScrollViewsyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeObserverFromScrollViews",
+            "printedName": "removeObserverFromScrollViews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC29removeObserverFromScrollViewsyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC29removeObserverFromScrollViewsyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VmaxUnityHelper@objc(cs)VmaxAdUnityBanner(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyg6ChangeI0aypGSgSvSgtF",
+            "moduleName": "VmaxUnityHelper",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdPaused",
+            "printedName": "onAdPaused()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC02onD6PausedyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC02onD6PausedyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdResumed",
+            "printedName": "onAdResumed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC02onD7ResumedyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC02onD7ResumedyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdComplete",
+            "printedName": "onAdComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15VmaxUnityHelper0a2AdB6BannerC02onD8CompleteyyF",
+            "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC02onD8CompleteyyF",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VmaxUnityHelper@objc(cs)VmaxAdUnityBanner",
+        "mangledName": "$s15VmaxUnityHelper0a2AdB6BannerC",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "VmaxAd",
+            "printedName": "VmaxAd",
+            "usr": "s:4Vmax0A2AdP",
+            "mangledName": "$s4Vmax0A2AdP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxAdAssetDelegate",
+            "printedName": "VmaxAdAssetDelegate",
+            "usr": "s:4Vmax0A15AdAssetDelegateP",
+            "mangledName": "$s4Vmax0A15AdAssetDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxRefreshableAd",
+            "printedName": "VmaxRefreshableAd",
+            "usr": "s:4Vmax0A13RefreshableAdP",
+            "mangledName": "$s4Vmax0A13RefreshableAdP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ViewPortManager",
+            "printedName": "ViewPortManager",
+            "usr": "s:4Vmax15ViewPortManagerP",
+            "mangledName": "$s4Vmax15ViewPortManagerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxRefreshableAssetDelegate",
+            "printedName": "VmaxRefreshableAssetDelegate",
+            "usr": "s:4Vmax0A24RefreshableAssetDelegateP",
+            "mangledName": "$s4Vmax0A24RefreshableAssetDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VmaxUnityError",
+        "printedName": "VmaxUnityError",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Codes",
+            "printedName": "Codes",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "noFillError",
+                "printedName": "noFillError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO06noFillD0yA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO06noFillD0yA2EmF",
+                "moduleName": "VmaxUnityHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "timeoutError",
+                "printedName": "timeoutError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO07timeoutD0yA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO07timeoutD0yA2EmF",
+                "moduleName": "VmaxUnityHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "networkError",
+                "printedName": "networkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO07networkD0yA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO07networkD0yA2EmF",
+                "moduleName": "VmaxUnityHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "internalError",
+                "printedName": "internalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO08internalD0yA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO08internalD0yA2EmF",
+                "moduleName": "VmaxUnityHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "serverError",
+                "printedName": "serverError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO06serverD0yA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO06serverD0yA2EmF",
+                "moduleName": "VmaxUnityHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "invalidRequest",
+                "printedName": "invalidRequest",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO14invalidRequestyA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO14invalidRequestyA2EmF",
+                "moduleName": "VmaxUnityHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "adAlreadyUsed",
+                "printedName": "adAlreadyUsed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VmaxUnityHelper.VmaxUnityError.Codes.Type) -> VmaxUnityHelper.VmaxUnityError.Codes",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Codes",
+                            "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO13adAlreadyUsedyA2EmF",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO13adAlreadyUsedyA2EmF",
+                "moduleName": "VmaxUnityHelper",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VmaxUnityHelper.VmaxUnityError.Codes?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Codes",
+                        "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                        "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO8rawValueAESgSi_tcfc",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO8rawValueAESgSi_tcfc",
+                "moduleName": "VmaxUnityHelper",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO8rawValueSivp",
+                "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO8rawValueSivp",
+                "moduleName": "VmaxUnityHelper",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO8rawValueSivg",
+                    "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO8rawValueSivg",
+                    "moduleName": "VmaxUnityHelper",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO",
+            "mangledName": "$s15VmaxUnityHelper0aB5ErrorC5CodesO",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxUnityError",
+                "printedName": "VmaxUnityHelper.VmaxUnityError",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Codes",
+                "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VmaxUnityHelper0aB5ErrorC4codeA2C5CodesO_tcfc",
+            "mangledName": "$s15VmaxUnityHelper0aB5ErrorC4codeA2C5CodesO_tcfc",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:errorDescription:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxUnityError",
+                "printedName": "VmaxUnityHelper.VmaxUnityError",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Codes",
+                "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VmaxUnityHelper0aB5ErrorC4code16errorDescriptionA2C5CodesO_SStcfc",
+            "mangledName": "$s15VmaxUnityHelper0aB5ErrorC4code16errorDescriptionA2C5CodesO_SStcfc",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:errorDescription:recoveryMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxUnityError",
+                "printedName": "VmaxUnityHelper.VmaxUnityError",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Codes",
+                "printedName": "VmaxUnityHelper.VmaxUnityError.Codes",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC5CodesO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VmaxUnityHelper0aB5ErrorC4code16errorDescription15recoveryMessageA2C5CodesO_S2Stcfc",
+            "mangledName": "$s15VmaxUnityHelper0aB5ErrorC4code16errorDescription15recoveryMessageA2C5CodesO_S2Stcfc",
+            "moduleName": "VmaxUnityHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:errorDescription:recoveryMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxUnityError",
+                "printedName": "VmaxUnityHelper.VmaxUnityError",
+                "usr": "s:15VmaxUnityHelper0aB5ErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15VmaxUnityHelper0aB5ErrorC4code16errorDescription15recoveryMessageACSi_S2Stcfc",
+            "mangledName": "$s15VmaxUnityHelper0aB5ErrorC4code16errorDescription15recoveryMessageACSi_S2Stcfc",
+            "moduleName": "VmaxUnityHelper",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15VmaxUnityHelper0aB5ErrorC",
+        "mangledName": "$s15VmaxUnityHelper0aB5ErrorC",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:4Vmax0A5ErrorC",
+        "superclassNames": [
+          "Vmax.VmaxError"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnityAds",
+        "printedName": "UnityAds",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnityAds",
+        "printedName": "UnityAds",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Vmax",
+        "printedName": "Vmax",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnityAds",
+        "printedName": "UnityAds",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "VmaxUnityHelper"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 8,
+      "value": "\"gameid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 9,
+      "value": "\"adsizes\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 13,
+      "value": "\"placementid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 11,
+      "value": "\"click-url\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 12,
+      "value": "\"campaignid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 428,
+      "length": 8,
+      "value": "\"gameid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 9,
+      "value": "\"adsizes\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 13,
+      "value": "\"placementid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 11,
+      "value": "\"click-url\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/UnityMarkup.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 12,
+      "value": "\"campaignid\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/Banner\/VmaxAdUnityBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/Banner\/VmaxAdUnityBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/Banner\/VmaxAdUnityBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 529,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/Banner\/VmaxAdUnityBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/Banner\/VmaxAdUnityBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "6002"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 12,
+      "value": "6003"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 12,
+      "value": "6004"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 13,
+      "value": "6005"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "6006"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 14,
+      "value": "6007"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 13,
+      "value": "6008"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "6002"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 12,
+      "value": "6003"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 12,
+      "value": "6004"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 13,
+      "value": "6005"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "6006"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 14,
+      "value": "6007"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 13,
+      "value": "6008"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "6002"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 12,
+      "value": "6003"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 12,
+      "value": "6004"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 13,
+      "value": "6005"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "6006"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 14,
+      "value": "6007"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 13,
+      "value": "6008"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/VmaxUnityError\/VmaxUnityError.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 14,
+      "value": "\"VmaxUnityHelper.VmaxUnityError\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/RewardedVideo\/VmaxAdAssetHelperUnityRewardedVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxUnityHelper\/VmaxUnityHelper\/Source\/Interstitial\/VmaxAdAssetHelperUnityInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 310,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

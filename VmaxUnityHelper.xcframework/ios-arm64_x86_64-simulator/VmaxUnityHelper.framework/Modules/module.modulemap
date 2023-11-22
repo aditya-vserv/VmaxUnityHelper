@@ -6,6 +6,6 @@ framework module VmaxUnityHelper {
 }
 
 module VmaxUnityHelper.Swift {
-    header "VmaxUnityHelper-Swift.h"
-    requires objc
+  header "VmaxUnityHelper-Swift.h"
+  requires objc
 }

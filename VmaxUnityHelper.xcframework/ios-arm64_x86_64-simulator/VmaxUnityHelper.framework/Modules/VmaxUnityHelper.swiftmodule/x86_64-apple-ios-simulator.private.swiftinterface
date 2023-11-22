@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VmaxUnityHelper
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Darwin
+import Foundation
+import Swift
+import UIKit
+import UnityAds
+import Vmax
+@_exported import VmaxUnityHelper
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdUnityBanner : ObjectiveC.NSObject, Vmax.VmaxAd {
+  @objc deinit
+  public func prepare(adResponse: Swift.String, delegate: Vmax.VmaxAdDelegate)
+  public func render(container: UIKit.UIView)
+  public static func getSignatures() -> [Swift.String]
+  public func pause()
+  public func resume()
+  public func close()
+}
+extension VmaxUnityHelper.VmaxAdUnityBanner : Vmax.VmaxAdAssetDelegate {
+  public func onPrepared<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onPrepareFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onRendered<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onRenderFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onClosed(asset: Vmax.VmaxAdAssetHelper)
+  public func onClicked(asset: Vmax.VmaxAdAssetHelper)
+  public func onClickedComplete(asset: Vmax.VmaxAdAssetHelper)
+}
+extension VmaxUnityHelper.VmaxAdUnityBanner : Vmax.VmaxRefreshableAd {
+  public func shouldProcessRefresh() -> Swift.Bool
+}
+extension VmaxUnityHelper.VmaxAdUnityBanner : Vmax.ViewPortManager {
+  public func addObserverToScrollViews()
+  public func removeObserverFromScrollViews()
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+extension VmaxUnityHelper.VmaxAdUnityBanner : Vmax.VmaxRefreshableAssetDelegate {
+  public func onAdPaused()
+  public func onAdResumed()
+  public func onAdComplete()
+}
+final public class VmaxUnityError : Vmax.VmaxError {
+  public enum Codes : Swift.Int {
+    case noFillError
+    case timeoutError
+    case networkError
+    case internalError
+    case serverError
+    case invalidRequest
+    case adAlreadyUsed
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public init(code: VmaxUnityHelper.VmaxUnityError.Codes)
+  public init(code: VmaxUnityHelper.VmaxUnityError.Codes, errorDescription: Swift.String)
+  public init(code: VmaxUnityHelper.VmaxUnityError.Codes, errorDescription: Swift.String, recoveryMessage: Swift.String)
+  @objc deinit
+}
+extension VmaxUnityHelper.VmaxUnityError.Codes : Swift.Equatable {}
+extension VmaxUnityHelper.VmaxUnityError.Codes : Swift.Hashable {}
+extension VmaxUnityHelper.VmaxUnityError.Codes : Swift.RawRepresentable {}
